@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Latihan1"
+    android:background="@color/teal_700">
+
+    <LinearLayout
+        android:id="@+id/LayoutSoal1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"
+        android:background="#f1f1f1">
+
+        <TextView
+            android:id="@+id/LabelSoal3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soal 3:"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/Soal3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20 + 80 = ?"
+            android:textColor="@color/black"
+            android:textSize="60dp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true">
+                <RadioButton
+                    android:id="@+id/Jwb_1_1_3A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="93"
+                    android:textSize="15dp" />
+                <RadioButton
+                    android:id="@+id/Jwb_1_1_3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15"
+                    android:textSize="15dp" />
+                <RadioButton
+                    android:id="@+id/Jwb_1_1_3C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-100"
+                    android:textSize="15dp" />
+                <RadioButton
+                    android:id="@+id/Jwb_1_1_3D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100"
+                    android:textSize="15dp" />
+            </RadioGroup>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutSoal4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LayoutSoal1"
+        android:layout_marginTop="50dp"
+        android:background="#f1f1f1">
+
+        <TextView
+            android:id="@+id/LabelSoal4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soal 4:"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/Soal4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="67 + 33 = ?"
+            android:textColor="@color/black"
+            android:textSize="60dp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true">
+                <RadioButton
+                    android:id="@+id/Jwb_1_1_4A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100"
+                    android:textSize="15dp" />
+                <RadioButton
+                    android:id="@+id/Jwb_1_1_4B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="190"
+                    android:textSize="15dp" />
+                <RadioButton
+                    android:id="@+id/Jwb_1_1_4C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-44"
+                    android:textSize="15dp" />
+                <RadioButton
+                    android:id="@+id/Jwb_1_1_4D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="42"
+                    android:textSize="15dp" />
+            </RadioGroup>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Finish1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FINISH"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LayoutSoal4"
+        android:layout_marginTop="65dp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
