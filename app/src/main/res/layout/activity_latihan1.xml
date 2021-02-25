@@ -148,6 +148,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
+        android:onClick="nextL1"
         app:srcCompat="@drawable/ic_btnNext"
         android:backgroundTint="@color/white"
         app:layout_constraintRight_toRightOf="parent"
