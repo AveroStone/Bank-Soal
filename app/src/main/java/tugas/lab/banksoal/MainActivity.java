@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button latihan1, latihan2, latihan3, reset;
+    private Button latihan1, latihan2, latihan3/*, reset*/;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         latihan1 = (Button) findViewById(R.id.btn_Lat1);
         latihan2 = (Button) findViewById(R.id.btn_Lat2);
         latihan3 = (Button) findViewById(R.id.btn_Lat3);
-        reset = (Button) findViewById(R.id.btn_Reset);
+        //reset = (Button) findViewById(R.id.btn_Reset);
 
         latihan1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,26 +28,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        latihan1.setOnClickListener(new View.OnClickListener() {
+        latihan2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openLatihan2();
             }
         });
 
-        latihan1.setOnClickListener(new View.OnClickListener() {
+        latihan3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openLatihan3();
             }
         });
 
-        latihan1.setOnClickListener(new View.OnClickListener() {
+        /*reset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 resetScore();
             }
-        });
+        });*/
     }
 
     private void openLatihan1() {
@@ -65,6 +65,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void resetScore() {
-    }
+    //private void resetScore() {
+    //}
 }

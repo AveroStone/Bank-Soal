@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Bank Soal</string>
+    <string name="mainLabel1">BANK SOAL</string>
+    <string name="mainLabel2">Matematika</string>
+    <string name="mainLabelBenar" />
+    <string name="mainLabelSalah" />
+    <string name="mainLabelScoreBenar" />
+    <string name="mainLabelScoreSalah" />
 </resources>
