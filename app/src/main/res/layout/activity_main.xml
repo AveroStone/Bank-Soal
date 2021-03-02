@@ -45,33 +45,41 @@
         app:layout_constraintRight_toRightOf="parent">
 
         <TextView
+            android:id="@+id/labelBenar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mainLabelBenar"
             android:layout_marginTop="1dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="1dp"/>
+            android:layout_marginRight="1dp"
+            android:textColor="#535252"/>
         <TextView
+            android:id="@+id/sBenar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mainLabelScoreBenar"
             android:layout_marginTop="1dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"/>
+            android:layout_marginRight="10dp"
+            android:textColor="#535252"/>
         <TextView
+            android:id="@+id/labelSalah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mainLabelSalah"
             android:layout_marginTop="1dp"
             android:layout_marginLeft="1dp"
-            android:layout_marginRight="1dp"/>
+            android:layout_marginRight="1dp"
+            android:textColor="#535252"/>
         <TextView
+            android:id="@+id/sSalah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mainLabelScoreSalah"
             android:layout_marginTop="1dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"/>
+            android:layout_marginRight="10dp"
+            android:textColor="#535252"/>
 
     </LinearLayout>
 

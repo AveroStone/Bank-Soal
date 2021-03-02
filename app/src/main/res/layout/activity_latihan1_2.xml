@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Latihan1"
+    tools:context=".Latihan1_2"
     android:background="@color/teal_700">
 
     <LinearLayout
@@ -42,6 +42,7 @@
             android:layout_height="wrap_content">
 
             <RadioGroup
+                android:id="@+id/L1S3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -87,7 +88,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/LayoutSoal1"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:background="#f1f1f1">
 
         <TextView
@@ -114,6 +115,7 @@
             android:layout_height="wrap_content">
 
             <RadioGroup
+                android:id="@+id/L1S4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -158,6 +160,6 @@
         android:text="FINISH"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/LayoutSoal4"
-        android:layout_marginTop="65dp"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="30sp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

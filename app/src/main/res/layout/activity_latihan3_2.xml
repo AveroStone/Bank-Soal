@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Latihan3"
+    tools:context=".Latihan3_2"
     android:background="@color/teal_700">
 
     <LinearLayout
@@ -42,6 +42,7 @@
             android:layout_height="wrap_content">
 
             <RadioGroup
+                android:id="@+id/L3S3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -52,25 +53,29 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-3"
-                    android:textSize="15dp" />
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
                 <RadioButton
                     android:id="@+id/Jwb_3_2_3B"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-17"
-                    android:textSize="15dp" />
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
                 <RadioButton
                     android:id="@+id/Jwb_3_2_3C"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="81"
-                    android:textSize="15dp" />
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
                 <RadioButton
                     android:id="@+id/Jwb_3_2_3D"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="-81"
-                    android:textSize="15dp" />
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
             </RadioGroup>
         </RelativeLayout>
     </LinearLayout>
@@ -83,7 +88,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/LayoutSoal3"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:background="#f1f1f1">
 
         <TextView
@@ -99,7 +104,7 @@
             android:id="@+id/Soal4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="86 - 36 = ?"
+            android:text="-6 x -6 = ?"
             android:textColor="@color/black"
             android:textSize="60dp"
             android:textAlignment="center"
@@ -110,46 +115,51 @@
             android:layout_height="wrap_content">
 
             <RadioGroup
+                android:id="@+id/L3S4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_centerInParent="true"
                 android:layout_alignParentTop="true">
                 <RadioButton
-                    android:id="@+id/Jwb_2_2A"
+                    android:id="@+id/Jwb_3_2A"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="50"
-                    android:textSize="15dp" />
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
                 <RadioButton
-                    android:id="@+id/Jwb_2_2B"
+                    android:id="@+id/Jwb_3_2B"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="144"
-                    android:textSize="15dp" />
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
                 <RadioButton
-                    android:id="@+id/Jwb_2_2C"
+                    android:id="@+id/Jwb_3_2C"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="45"
-                    android:textSize="15dp" />
+                    android:text="24"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
                 <RadioButton
-                    android:id="@+id/Jwb_2_2"
+                    android:id="@+id/Jwb_3_2D"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="56"
-                    android:textSize="15dp" />
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
             </RadioGroup>
         </RelativeLayout>
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_Finish3"
-        android:layout_width="wrap_content"
+        android:onClick="Finish3"
+		android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="FINISH"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/LayoutSoal4"
-        android:layout_marginTop="65dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="30sp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
